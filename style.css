@@ -19,6 +19,8 @@ body{
     line-height: 1.5;
     font-size: 16px;
     font-family: 'Poppins' sans-serif;
+    overflow-x: hidden;
+     padding-right: 270px;
 }
 *
 {
@@ -36,7 +38,7 @@ body{
 .section
 {
    background: var(--bg-black-900);
-   position: fixed;
+   position: relative;
    display: block; 
    padding: 0 30px;
    opacity: 1;
@@ -781,6 +783,11 @@ h3 .my-profession
     .aside
     {
         left: -270px;
+    }
+    body
+    {
+        padding-right: 0px;
+        padding-left: 0px;
     }
     .aside.open
     {
